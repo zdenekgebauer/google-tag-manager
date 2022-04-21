@@ -1,0 +1,34 @@
+{
+  "name": "zdenekgebauer/google-tag-manager",
+  "license": "wtfpl",
+  "description": "Google Tag Manager data layer generator",
+  "type": "library",
+  "keywords": ["Google Tag Manager", "php"],
+  "authors": [
+    {
+      "name": "Zdenek Gebauer",
+      "email": "zdenek.gebauer@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "config": {
+    "platform": {
+      "php": "8.0"
+    },
+    "preferred-install": {
+      "*": "dist"
+    }
+  },
+  "require": {
+    "php": ">=8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ZdenekGebauer\\GoogleTagManager\\": "src/"
+    }
+  },
+  "require-dev": {
+    "codeception/codeception": "^4.1",
+    "codeception/module-asserts": "^2.0"
+  }
+}
